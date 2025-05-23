@@ -1,0 +1,59 @@
+body {
+    background-color: #181a1b;
+    color: #f8f9fa;
+}
+
+header, footer {
+    background: #101113;
+}
+
+.card {
+    background: #23272b;
+    border: none;
+}
+
+.btn-outline-light {
+    border-color: #f8f9fa;
+    color: #f8f9fa;
+}
+.btn-outline-light:hover {
+    background: #f8f9fa;
+    color: #181a1b;
+}
+
+.team-leader-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #f8f9fa;
+}
+.team-member-img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border: 2px solid #adb5bd;
+    transition: transform 0.2s;
+}
+.team-member-img:hover {
+    transform: scale(1.1);
+    border-color: #f8f9fa;
+}
+.staff-leader-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #f8f9fa;
+}
+.staff-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border: 2px solid #adb5bd;
+}
+.accordion-button:not(.collapsed) {
+    color: #f8f9fa;
+    background-color: #23272b;
+}
+.accordion-item {
+    border: none;
+}
